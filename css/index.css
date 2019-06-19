@@ -134,3 +134,46 @@ html,
 body {
   height: 100%;
 }
+.main-boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+.inner-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 300px;
+}
+.main-container .nav-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-container .main-header {
+  background-color: lightgray;
+  margin: 20px;
+}
+.main-container .main-header .header-img {
+  max-width: 25%;
+  max-height: 25%;
+}
+.main-container .body-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-container .body-container .intro-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 300px;
+}
+.main-container .body-container .stuff-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 300px;
+}
+.main-container .body-container .stuff-container .stuff-box {
+  padding: 10px;
+  margin: 2px;
+  border: solid 2px black;
+}

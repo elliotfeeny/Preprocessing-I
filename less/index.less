@@ -57,32 +57,56 @@ html, body {
 	height: 100%;
 }
 
+.main-boxes{
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+
+.inner-boxes{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	max-width: 300px;
+	
+}
+
 .main-container{
 	
 	.nav-container{
-		
+		display: flex;
+		justify-content: space-evenly;
 	}
 
 	.main-header{
+		background-color: lightgray;
+		margin: 20px;
 		.header-img{
+			max-width: 25%;
+			max-height: 25%;
+		}
+	}
+	.body-container{
+		.main-boxes();
+	
+		.intro-box{
+			.inner-boxes();
+			
+		}
+
+		.stuff-container{
+			.inner-boxes();
+			.stuff-box{
+				padding: 10px;
+				margin: 2px;
+				border: solid 2px black;
+			}
 
 		}
 	}
-
-	.intro-box{
-
-	}
-
-	.stuff-container{
-		.stuff-box{
-
-		}
-
-	}
-
 	.history-container{
 		.history-box{
-			
+
 		}
 	}
 
