@@ -144,6 +144,9 @@ body {
   justify-content: space-evenly;
   max-width: 300px;
 }
+h2 {
+  font-size: 20px;
+}
 .main-container .nav-container {
   display: flex;
   justify-content: space-evenly;
@@ -175,5 +178,17 @@ body {
 .main-container .body-container .stuff-container .stuff-box {
   padding: 10px;
   margin: 2px;
+  border: solid 2px black;
+}
+.main-container .history-container {
+  margin: 20px;
+  padding: 20px 35%;
+  text-align: center;
+  border-top: dotted 2px black;
+}
+.main-container .history-container .history-box {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
   border: solid 2px black;
 }
